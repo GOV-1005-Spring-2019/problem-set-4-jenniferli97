@@ -187,8 +187,8 @@ ggplot(graph, aes(x = gender, y = total, color = partyid, fill = partyid)) +
   # creates a title and caption for my graph, so the viewer knows what they're looking at and where the data came from
   labs(title = "Party ID by Gender in North Carolina's 9th Congressional District",
        caption = "Source: North Carolina's 9th Congressional District") + 
-  # adds the label "Gender" to my y-axis
-  ylab("Gender") + 
+  # adds the label "Count" to my y-axis
+  ylab("Count") + 
   # adds the label "Party ID" to my x-axis
   xlab("Party ID") +
   # this manually changes the colors of each bar in the graph, so that blue correctly represents the Democratic Party, green represents Independents, and red rerepresents Republicans
